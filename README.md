@@ -14,7 +14,8 @@ Typical usage example:
 
 ## Features:
 - Mappings can be specified in a separate tab delimited file, one mapping per line. 
-  Specify the path to mappings file via `--mapf` option.
+  Specify the path to mappings file via `--mapf` option.  
+  An example of a mappings file can be found [here](https://github.com/chhh/mzid-filter/blob/cba81272c8077155699ca6c4d438eb47d081fc04/mappings-example.txt).
 - The delimiter in `psm.tsv` file is auto-detected (can be comma, tab, space or semicolon).
 - The column in `psm.tsv` that is used for matching PSMs to `mzid` can be provided as a parameter via `--psmidcol` option.
   Defaults to `Spectrum`.
