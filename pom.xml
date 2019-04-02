@@ -22,7 +22,7 @@
 
   <groupId>com.github.chhh</groupId>
   <artifactId>mzid-filter</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>MzIdentML Filter</name>
@@ -34,7 +34,7 @@
     <connection>${project.scm.url}</connection>
     <developerConnection>${project.scm.url}</developerConnection>
     <url>${project.scm.url}</url>
-    <tag>v1.1</tag>
+    <tag>1.2</tag>
   </scm>
 
 
@@ -130,6 +130,12 @@
         </executions>
       </plugin>
 
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>2.7</version>
+      </plugin>
+
     </plugins>
   </build>
 
@@ -139,12 +145,12 @@
     <dependency>
       <groupId>com.github.chhh</groupId>
       <artifactId>utils</artifactId>
-      <version>0.4.3</version>
+      <version>0.4.4</version>
     </dependency>
     <dependency>
       <groupId>com.github.chhh</groupId>
       <artifactId>msftbx</artifactId>
-      <version>1.6.0</version>
+      <version>1.8.7</version>
       <exclusions>
         <exclusion>
           <groupId>org.apache.logging.log4j</groupId>
@@ -182,22 +188,22 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.4</version>
+      <version>3.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-csv</artifactId>
-      <version>1.5</version>
+      <version>1.6</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.25</version>
+      <version>1.7.26</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
-      <version>1.7.25</version>
+      <version>1.7.26</version>
     </dependency>
 
     <!--Test dependencies-->
