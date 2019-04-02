@@ -20,5 +20,5 @@ package umich.ms.mzid;
  * @author Dmitry Avtonomov
  */
 public class Version {
-    public static final String version = "v1.1";
+    public static final String version = "1.2";
 }

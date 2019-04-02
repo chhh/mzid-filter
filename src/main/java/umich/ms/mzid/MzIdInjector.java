@@ -78,7 +78,7 @@ public class MzIdInjector {
     }
 
     static void printIntro() {
-        System.out.printf("%s (%s)\n\n", PROG_NAME, Version.version);
+        System.out.printf("%s (v%s)\n\n", PROG_NAME, Version.version);
     }
 
     static InputParams parseInputParams(String[] args) {
