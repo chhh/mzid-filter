@@ -2,18 +2,18 @@
 Filter MzIdentML according to a delimited text file and inject custom `userParam` entries into it.
 
 ## Download:
-[Latest release link](https://github.com/chhh/mzid-filter/releases/latest)
+[Download the latest release link](https://github.com/chhh/mzid-filter/releases/latest)
 
 ## Requirements:
 - Java 8
 
 ## Usage:
 To print the usage info:  
-`java -jar .\mzid-filter-1.1.jar` 
+`java -jar .\mzid-filter-X.X.jar` 
 without any parameters or with `-h`.
 
 Typical usage example:  
-`java -jar .\mzid-filter-1.1.jar --map "from-column-01" "to-userParam-01" --map "from-column-02" "to-userParam-02" --mzid <path-to.mzid> --psms <path-to-psm.tsv> --mapf <path-to-mappings-file>`  
+`java -jar .\mzid-filter-X.X.jar --map "from-column-01" "to-userParam-01" --map "from-column-02" "to-userParam-02" --mzid <path-to.mzid> --psms <path-to-psm.tsv> --mapf <path-to-mappings-file>`  
 
 ## Features:
 - Mappings can be specified in a separate tab delimited file, one mapping per line. 
